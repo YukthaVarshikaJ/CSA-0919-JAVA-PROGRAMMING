@@ -1,0 +1,21 @@
+import java.util.Scanner;
+class rectpat
+{
+public static void main(String args[])
+{
+Scanner input=new Scanner(System.in);
+int row=input.nextInt();
+int col=input.nextInt();
+char sym=input.next().charAt(0);
+int i,j;
+for(i=1;i<=row;i++)
+{
+for(j=1;j<=col;j++)
+{
+System.out.print(sym);
+}
+System.out.print("\n");
+}
+}
+}
+
