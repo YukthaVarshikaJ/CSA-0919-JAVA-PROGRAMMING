@@ -1,0 +1,15 @@
+import java.util.Scanner;
+class skipno
+{
+public static void main(String args[])
+{
+Scanner input=new Scanner(System.in);
+int i,m=input.nextInt();
+int n=input.nextInt();
+int k=input.nextInt();
+for(i=m;i<=n;i=i+k+1)
+{
+System.out.print(i+" ");
+}
+}
+}
