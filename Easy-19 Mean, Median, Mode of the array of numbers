@@ -15,7 +15,7 @@ class mmm
 		}
 		for(int i=0;i<n;i++)
 		{
-			sum=sum+a[i];vnbv
+			sum=sum+a[i];
 		} 
 		float mean=sum/n;
 		System.out.print("Mean:"+mean);
