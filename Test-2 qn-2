@@ -1,0 +1,42 @@
+//PRINT VOWELS CONSONANTS SEPERATELY 
+
+import java.util.Scanner;
+class convow
+{
+public static void main(String args[])
+{
+Scanner input=new Scanner(System.in);
+System.out.print("Enter the string : ");
+String str=input.nextLine();
+int n=str.length();
+char a[]=new char[n];
+char vow[]=new char[n];
+char con[]=new char[n];
+int v=0,c=0;
+for(int i=0;i<n;i++)
+{
+a[i]=str.charAt(i);
+if(a[i]=='a'||a[i]=='e'||a[i]=='i'||a[i]=='o'||a[i]=='u'||a[i]=='A'||a[i]=='E'||a[i]=='I'||a[i]=='O'||a[i]=='U')
+{
+vow[v]=a[i];
+v++;
+}
+else
+{
+con[c]=a[i];
+c++;
+}
+}
+System.out.print("CONSONANTS REMOVED : ");
+for(int i=0;i<v;i++)
+{
+System.out.print(vow[i]);
+}
+System.out.println();
+System.out.print("VOWELS REMOVED : ");
+for(int j=0;j<c;j++)
+{
+System.out.print(con[j]);
+}
+}
+}
