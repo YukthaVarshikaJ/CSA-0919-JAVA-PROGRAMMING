@@ -1,3 +1,5 @@
+//NO OF VOWELS IN THE STRING
+
 import java.util.Scanner;
 class vow
 {
