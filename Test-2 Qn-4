@@ -1,0 +1,15 @@
+//SQUARE CUBE OF A NUMBER
+
+import java.util.Scanner;
+class sqcu
+{
+public static void main(String args[])
+{
+Scanner input=new Scanner(System.in);
+System.out.print("Enter no : ");
+float n=input.nextFloat();
+System.out.println("SQUARE : "+(n*n));
+System.out.print("CUBE : "+(n*n*n));
+}
+}
+
